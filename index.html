@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahab Afshar's Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hello, my friend! Welcome to Shahab Afshar's website.</h1>
+        <p>My name is Shahab. What is your name?</p>
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        <button onclick="greetUser()">Submit</button>
+        <div id="greeting"></div>
+
+        <div id="question2" style="display:none;">
+            <p>Nice chatting with you, <span id="userName"></span>!</p>
+            <p>I feel like you are a special person, <span id="userName2"></span>!</p>
+            <p>What is one thing you love to buy if you had €1 million?</p>
+            <input type="text" id="buyInput" placeholder="Enter your answer">
+            <button onclick="showChoice()">Submit</button>
+        </div>
+
+        <div id="question3" style="display:none;">
+            <p>That's a great choice!</p>
+            <p>Anything you want in life is possible. You just have to work hard for it.</p>
+            <p class="big-message">Enjoy your life!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
